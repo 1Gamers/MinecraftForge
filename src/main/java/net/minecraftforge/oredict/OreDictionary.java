@@ -77,6 +77,7 @@ public class OreDictionary
             registerOre("record",      Items.record_ward);
             registerOre("record",      Items.record_11);
             registerOre("record",      Items.record_wait);
+            registerOre("blockDirt",    Blocks.dirt);
         }
 
         // Build our list of items to replace with ore tags
@@ -137,7 +138,8 @@ public class OreDictionary
             new ItemStack(Blocks.birch_stairs),
             new ItemStack(Blocks.jungle_stairs),
             new ItemStack(Blocks.acacia_stairs),
-            new ItemStack(Blocks.dark_oak_stairs)
+            new ItemStack(Blocks.dark_oak_stairs),
+            new ItemStack(Blocks.dirt)
         };
 
         List<IRecipe> recipes = CraftingManager.getInstance().getRecipeList();
